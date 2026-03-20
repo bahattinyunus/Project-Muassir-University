@@ -19,7 +19,12 @@
 Türkiye Cumhuriyeti'nin 2. yüzyılında, 50 Türk üniversitesini dünya sıralamasında (QS/THE) ilk 200 bandına sokmak bir hayal değil, bir **sistem tasarımı** ve **mimari dönüşüm** meselesidir. Mevcut yükseköğretim mimarisi (YÖK 1.0), 19. yüzyılın sanayi toplumu ihtiyaçlarına göre (standardizasyon, ezber, itaat) kurgulanmış hantal bir yapıdır. Bu yapı, bilgiyi depolayan (hafıza odaklı) bireyler yetiştirmeyi hedeflerken, AI çağının "bilgi işleyen ve sentezleyen" ihtiyaçlarına yanıt verememektedir.
 
 ### 2. Radical Kernel Replacement
-**Muassır-University (The Higher Education OS)**, bu hantal işletim sistemini silip yerine **AI-Native**, **Bölümsüz** ve **Radikal Özerk** bir çekirdek (kernel) yerleştirir. Bu dönüşüm, sadece müfredat güncellemesi değil; üniversitenin varoluş amacının, finansal modelinin ve yönetim şemasının kökten değiştirilmesidir. Biz, üniversiteyi bir "okul" olarak değil, bir "entelektüel işletim sistemi" olarak görüyoruz.
+**Muassır-University (The Higher Education OS)**, bu hantal işletim sistemini silip yerine **AI-Native**, **Bölümsüz** ve **Radikal Özerk** bir çekirdek (kernel) yerleştirir.
+
+> [!IMPORTANT]
+> **Stratejik Temeller:** Neden Türkiye'den dünyanın en iyi üniversitesi çıkmıyor ve AI çağında 10 yılda nasıl zirveye çıkarız? 
+> ➡️ **[Stratejik Analiz ve 10 Yıllık Yol Haritası](proposals/strategic-foundation.md)**
+ Bu dönüşüm, sadece müfredat güncellemesi değil; üniversitenin varoluş amacının, finansal modelinin ve yönetim şemasının kökten değiştirilmesidir. Biz, üniversiteyi bir "okul" olarak değil, bir "entelektüel işletim sistemi" olarak görüyoruz.
 
 ---
 
