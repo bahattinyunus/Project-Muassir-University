@@ -2,101 +2,109 @@
 
 # 🏛️ Project Muassir-University: Yükseköğretim İşletim Sistemi (The Higher Education OS)
 
-**"Türk Yükseköğretim Sisteminin Küresel Rekabet Gücünü Artırmaya Yönelik Radikal Reform ve Yapay Zeka Entegrasyon Stratejisi"**
+**"Yapay Zeka Çağında Türk Akademik Ekosisteminin Küresel Liderliğini Hedefleyen Radikal Dönüşüm Manifestosu"**
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-research_&_development-orange.svg)
 ![Focus](https://img.shields.io/badge/focus-AI_Native_Education-green.svg)
 ![Vision](https://img.shields.io/badge/vision-Top_200_Global-red.svg)
 
-> **"Bilim ve teknolojide öncü olmak, ulusal egemenliğin ve ekonomik bağımsızlığın temel taşıdır."**
+> **"Bilgiye hükmetmek bir tercih değil, egemenlik mücadelesidir. Muassır-University, bu mücadelenin teknik ve stratejik işletim sistemidir."**
 
 ---
 
-## 🎯 Vizyon ve Stratejik Hedefler
+## 🎯 Stratejik Vizyon: Küresel Sıçrama (The Leapfrog Strategy)
 
-### 1. Sistemsel Dönüşüm Mimari
-Project Muassir-University, Türk yükseköğretim kurumlarını on yıl içerisinde dünya sıralamalarında (QS, THE) ilk 200 bandına taşıyacak yapısal bir **ekosistem tasarımıdır.** Mevcut hiyerarşik ve statik eğitim modelleri (YÖK 1.0), yerini dinamik, veriye dayalı ve liyakat esaslı bir **"Akademik İşletim Sistemine"** bırakmaktadır.
+### 1. Kurumsal Kernel Değişimi
+Türkiye Cumhuriyeti'nin ikinci yüzyılında, 50 Türk üniversitesinin dünya sıralamalarında (QS, THE) ilk 200 bandına taşınması, mevcut hiyerarşik yapıların (YÖK 1.0) rehabilitasyonu ile mümkün değildir. Project Muassir-University, bu yapıların üzerine inşa edilmek yerine, üniversitenin temel "Kernel"ini (çekirdeğini) bütünüyle değiştiren **AI-Native** ve **Radikal Özerk** bir model sunar.
 
-### 2. Yapay Zeka Yerleşik (AI-Native) Yaklaşım
-Bu proje, yapay zekayı bir yardımcı araç olarak değil, eğitim sisteminin **temel çekirdeği (kernel)** olarak konumlandırır. Bilgi aktarımı süreçlerinin otonomlaştırılması, akademik personelin yüksek katma değerli araştırma ve mentorluk faaliyetlerine odaklanmasını sağlar.
+### 2. Bilgi Sentezi ve Üretim Faktörü
+Geleneksel eğitim, bilgiyi depolamayı (hafıza) hedeflerken; Muassır modeli, bilginin yapay zeka ile simbiyotik bir bağ kurularak işlenmesini ve somut bir değer (Ar-Ge, Patent, Startup) üretilmesini esas alır. Biz, diplomalı işsizler değil, **Küresel Teknoloji Mimarları** yetiştiriyoruz.
+
+> [!IMPORTANT]
+> **Stratejik Temeller:** Neden Türkiye'den dünyanın en iyi üniversitesi çıkmıyor ve AI çağında 10 yılda nasıl zirveye çıkarız? 
+> ➡️ **[Stratejik Analiz ve 10 Yıllık Yol Haritası](proposals/strategic-foundation.md)**
 
 ---
 
-## 🏗️ Sistem Mimarisi ve Veri Akışı
+## 🏗️ Sistem Mimarisi: Otonom Akademik Ekosistem
 
-Muassır-University, sürekli kendini optimize eden bir öğrenme ve üretim ekosistemidir. Aşağıdaki mimari, akademik üretimin finansal ve idari otonomiyle olan entegrasyonunu temsil eder:
+Muassır-University, statik bir bina değil, sürekli kendini optimize eden dijital bir organizmadır.
 
 ```mermaid
 graph TD
-    A[Öğrenci / Araştırmacı] -->|Sürekli İş İspatı - CPoW| B(GitHub & Ar-Ge Simülasyonları)
-    B -->|Semantik Veri Akışı| C{CPoW Analiz Modülü}
-    C -->|Performans Metrikleri| D[Yapay Zeka Mentörü]
-    D -->|Kişiselleştirilmiş Müfredat Safhası| A
-    C -->|Yetkinlik Onayı| E[Endüstri ve Patent Ekosistemi]
-    F[Akademik DAO] -->|Stratejik Karar ve Fonlama| B
-    F -->|Yönetişim Protokolleri| D
-    G[Endowment Yatırım Fonu] -->|Finansal Sürdürülebilirlik| F
+    A[Öğrenci / Araştırmacı] -->|CPoW - Sürekli İş İspatı| B(GitHub & Ar-Ge Lab)
+    B -->|Semantik Veri| C{CPoW Analizörü}
+    C -->|Performans Endeksi| D[Yapay Zeka Mentörü]
+    D -->|Kişiselleştirilmiş Müfredat Dinamiği| A
+    C -->|Liyakat Onayı| E[Global Endüstri Ağı]
+    F[Akademik DAO] -->|Stratejik Karar ve Kaynak| B
+    F -->|Yönetişim Protokolü| D
+    G[Endowment Yatırım Fonu] -->|Finansal Egemenlik| F
 ```
 
 ---
 
-## 📜 Operasyonel İlkeler: Derinlemesine Teknik Bakış
-
-### 🛡️ Teknolojik Egemenlik (Technological Sovereignty)
-Eğitim sistemleri, milletlerin stratejik savunma ve kalkınma önceliklerinin başında gelir. Muassır modeli, bireyleri teknolojiyi tüketen pasif kullanıcılar olmaktan çıkarıp, karmaşık sistemleri tasarlayan ve yöneten **Sistem Mimarları** olarak yetiştirmeyi hedefler. Bu, ulusal teknolojik bağımsızlığın temelidir.
-
-### 🧠 Kognitif Simbiyoz ve Protez Çağı
-Yapay Zeka, insan bilişsel kapasitesinin bir uzantısı olarak kabul edilir. Eğitim süreci, bilginin ezberlenmesinden ziyade, yapay zeka ile simbiyotik bir bağ kurarak yeni bilgi ve çözümler üretme yetkinliğini esas alır. Mezuniyet kriteri, bireyin yapay zeka sistemleriyle kurguladığı entelektüel katma değerdir.
-
----
-
-## 🚀 Temel Stratejik Sütunlar
+## 🚀 Beş Stratejik Temel (The Pillars)
 
 ### ⚙️ [1. Sürekli İş İspatı (CPoW) Protokolü](assessment-models/cpow-protocol.md)
-*   **Dinamik Değerlendirme:** Geleneksel sınav sistemleri yerine, GitHub etkileşimleri ve gerçek zamanlı problem çözme metriklerini esas alan nesnel bir ölçümleme protokolüdür.
-*   **Teknik Rapor:** [CPoW Analizör Modülü Teknik Şartnamesi](proposals/cpow_analyzer-mock.md)
+*   **Değerlendirme Devrimi:** Statik sınavların yerini alan, GitHub etkileşimleri ve açık kaynak üretim metriklerini baz alan nesnel bir ölçümleme sistemi.
+*   **Prototip:** [CPoW Analizör Modülü (Python)](scripts/cpow_analyzer.py)
 
-### 🧠 [2. AI-Native Müfredat Tasarımı](ai-integration/ai-native-curriculum.md)
-*   **Otonom Rehberlik:** Her bireye özel öğrenme patikaları sunan, bilişsel eksiklikleri anlık saptayan RAG tabanlı uzman sistemler.
-*   **İleri Seviye Protokoller:** [Nöral Etkileşim Protokolü (V4.0)](ai-integration/neural-protocol-v4.md)
+### 🧠 [2. AI-Native Müfredat ve Nöral Entegrasyon](ai-integration/ai-native-curriculum.md)
+*   **Otonom Mentorluk:** Her öğrenciye özel, bilişsel boşlukları anlık tespit eden ve **IEEE ISCT 2025** standartlarında (KG-RAG) rehberlik eden sistemler.
+*   **İleri Seviye:** [BCI Nöral Protokolü (V4.0)](ai-integration/neural-protocol-v4.md)
 
-### 📜 [3. Akademik DAO ve Kurumsal Yönetişim](legislative-framework/yok-reform-proposal.md)
-*   **Karesel Yönetişim:** Karar alma süreçlerinin, paydaşların somut üretim çıktılarına (CPoW) göre ağırlıklandırıldığı şeffaf ve merkeziyetsiz yönetim modeli.
+### 📜 [3. Akademik DAO ve Liyakat Esaslı Yönetişim](legislative-framework/yok-reform-proposal.md)
+*   **Merkeziyetsiz Yönetim:** Kararların, paydaşların somut akademik üretim çıktılarına (CPoW) göre ağırlıklandırıldığı akıllı kontratlar üzerinden alınması.
 *   **Tüzük:** [Akademik DAO Yönetişim Tüzüğü](legislative-framework/academic-dao-charter.md)
 
-### 💰 [4. Ekonomik Model ve Finansal Otonomi](economic-model/endowment-patent-strategy.md)
-*   **Endowment ve IP Stratejisi:** Üniversiteyi kamu bütçesinden bağımsız kılan, patent gelirleri ve startup iştirakleriyle beslenen sürdürülebilir bir finansal mimari.
+### 🌐 [4. Küresel Akreditasyon ve Peer-Review 2.0](global-benchmarking/comparative-analysis.md)
+*   **Decentralized Accreditation:** Diplomanın yerini alan, blockchain üzerinde doğrulanmış ve global endüstri tarafından anlık tanınan "Yetkinlik Madalyonları".
+
+### 💰 [5. Ekonomik Model: VC-University](economic-model/endowment-patent-strategy.md)
+*   **Endowment ve IP:** Üniversiteyi kamu bütçesinden bağımsız kılan, patent ve startup iştirakleriyle beslenen sürdürülebilir finansal mimari.
 
 ---
 
-## 📈 Stratejik Analiz ve Yol Haritası
+## 📂 Disiplinlerarası Fakülte Taslakları (Departmental Blueprints)
 
-Mevcut sistemin yapısal darboğazlarını ve on yıllık gelişim stratejisini içeren kapsamlı analiz belgesine aşağıdan ulaşabilirsiniz:
+Muassır modelinde bölümler statik değil, dinamik "Yetenek Ağaçları" (Skill-Trees) şeklindedir:
 
-➡️ **[Stratejik Analiz: Türk Eğitiminde Yapısal Dönüşüm ve 10 Yıllık Yol Haritası](proposals/strategic-foundation.md)**
+### 🔬 [Siber-Biyoloji ve Sentetik Yaşam](proposals/skill-tree-bio.md)
+AI asistanlarıyla protein tasarımı, sentetik DNA dizileme ve biyo-etik hizalama yetkinlikleri.
+### ⚛️ [Kuantum Sistem Mimarisi](proposals/skill-tree-quantum.md)
+Kuantum algoritmaları, kriptografik savunma ve kuantum hatası düzeltme protokolleri.
+### ⚖️ [Algoritmik Etik ve Bilişsel Haklar](legislative-framework/cognitive-rights.md)
+AI-insan simbiyozunda veri mülkiyeti, düşünce özgürlüğü ve bilişsel güvenlik yasaları.
+
+---
+
+## 🎭 Operasyonel Hikaye: Muassır'da Bir Gün (Day in the Life)
+
+> *"Saat 09:00. BCI arayüzüm AI-Mentor ile senkronize oldu. Mentor, dün gece yazdığım 'Neural Kinematics' kodunda bir regresyon saptamış. Kahvem gelmeden GitHub PR'ımı optimize etmem için bir 'Deep Sync' oturumu öneriyor. Saat 11:00'de Akademik DAO'da yeni 'Qu-Bit Stability' skill-tree önerisi oylanacak. CPoW skorum yettiği için oylamada ağırlığım %1.2. Bugün diploma değil, patent peşindeyim. Mentor'un önerdiği arXiv makalesini nöral kanaldan okurken, verimliliğimin %14 arttığını görüyorum."*
 
 ---
 
 ## 🛠️ Teknik Envanter ve Prototip Araçlar
 
 Projenin teknik geçerliliğini destekleyen interaktif bileşenler:
-- **[Etkileşimli Kurumsal Portal (index.html)](index.html):** Vizyonun dijital yansıması.
+- **[Etkileşimli Kurumsal Portal (index.html)](index.html):** Vizyonun dijital vitrini.
 - **[Akademik Dashboard Simülasyonu](index.html#dashboard):** CPoW ve Mentor etkileşim arayüzü.
-- **[CPoW Analizör Yazılımı (Python)](scripts/cpow_analyzer.py):** Veri analitik simülasyon aracı.
+- **[Research Bibliography](proposals/research-bibliography.md):** 2024-2025 akademik kanıt temeli.
 
 ---
 
 ## 🤝 Katılım ve Kurumsal İşbirliği (Contribute)
 
-Project Muassir-University, akademik ve teknolojik dünyadaki tüm paydaşların katkısına açık bir araştırma inisiyatifidir:
+Project Muassir-University, statükoyu dönüştürmek isteyen tüm araştırmacılara açık bir araştırma platformudur:
 
-1.  **Analitik Katkı:** Mevcut yapısal sorunlara yönelik veri temelli raporlar sunun.
-2.  **Modüler Geliştirme:** Skill-Tree veya mevzuat önerileri ile ekosistemi genişletin.
-3.  **Uygulama:** Kendi bünyenizde Muassır protokollerini (CPoW) test ederek geri bildirim sağlayın.
+1.  **Analiz:** Mevcut sisteme dair yapısal hata raporları sunun.
+2.  **Geliştir:** [Pull Request] ile yeni Skill-Tree veya Mevzuat Önerisi gönderin.
+3.  **Uygula:** Kendi araştırma topluluğunuzda CPoW protokollerini test edin.
 
 ---
-*Muassir-University © 2026. MIT Lisansı kapsamında korunmaktadır. Bu çalışma, Türkiye'nin yapay zeka çağındaki entelektüel egemenliğini güvence altına almayı hedefler.*
+*Muassir-University © 2026. Proje, Türkiye'nin entelektüel egemenliğini AI çağında garanti altına almayı hedefler.*
 
 ---
 > **"Gelecek, onu bugünden tasarlayanlarındır."**
