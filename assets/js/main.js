@@ -117,5 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    console.log('Muassir OS: Neural Interface Initialized.');
+    // 6. Final Activation
+    renderSkillTrees();
+    console.log('Muassir OS: Global Strategic Layer Active.');
 });
