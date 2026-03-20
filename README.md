@@ -59,10 +59,12 @@ Her sütun, akademik bir White Paper ciddiyetinde detaylandırılmıştır:
 ### 🧠 [2. AI-Native Müfredat ve Sentetik Eğitim](ai-integration/ai-native-curriculum.md)
 *   **AI-Mentor:** Her öğrenciye özel 24/7 rehberlik eden, bilişsel boşlukları anlık tespit eden ajanlar.
 *   **Uzmanlık Modülleri:** [AI-Robotik Skill Tree Örneği](ai-integration/skill-tree-ai-robotics.md)
+*   **Futuristic:** [BCI Nöral Protokolü (V4.0)](ai-integration/neural-protocol-v4.md)
 
 ### 📜 [3. Akademik DAO ve YÖK 2.0](legislative-framework/yok-reform-proposal.md)
 *   **Otonom Yönetim:** Kararların dekanlar değil, liyakat ağırlıklı algoritmalar ve topluluk oylarıyla alınması.
 *   **Yönetişim Tüzüğü:** [Akademik DAO Tüzüğü](legislative-framework/academic-dao-charter.md)
+*   **Etik:** [Bilişsel Haklar Sözleşmesi](legislative-framework/cognitive-rights.md)
 
 ### 🌐 [4. Küresel Kıyaslama (Global Benchmarking)](global-benchmarking/comparative-analysis.md)
 *   **Stratejik Analiz:** MIT, Stanford ve Minerva modellerinin "Legacy Debt" (miras borcu) handikapları ve Muassır'ın avantajları.
@@ -70,6 +72,32 @@ Her sütun, akademik bir White Paper ciddiyetinde detaylandırılmıştır:
 ### 💰 [5. Ekonomik Model ve VC-University](economic-model/endowment-patent-strategy.md)
 *   **Endowment:** Devlet bütçesinden bağımsız, patent gelirleri ve bağışlarla beslenen devasa yatırım fonu.
 *   **Patent-First:** Akademik yükselme kriterlerinde "Makale Sayısı" yerine "Uygulanan Patent" zorunluluğu.
+
+---
+
+## 🎭 Operasyonel Hikaye: Muassır'da Bir Gün (Day in the Life)
+
+> *"Saat 09:00. BCI arayüzüm AI-Mentor ile senkronize oldu. Mentor, dün gece yazdığım 'Neural Kinematics' kodunda bir regresyon saptamış. Kahvem gelmeden GitHub PR'ımı optimize etmem için bir 'Deep Sync' oturumu öneriyor. Saat 11:00'de Akademik DAO'da yeni 'Bio-Computing' skill-tree önerisi oylanacak. CPoW skorum yettiği için oylamada ağırlığım %1.2. Bugün diploma değil, patent peşindeyim."*
+
+---
+
+## 📚 Muassır Sözlüğü (Glossary)
+
+- **CPoW (Continuous Proof of Work):** Sınavsız, sürekli üretim bazlı değerlendirme.
+- **AI-Mentor:** Öğrencinin bilişsel ikizi ve rehberi olan otonom agent.
+- **Endowment:** Üniversitenin otonom finansını sağlayan akıllı fon.
+- **Skill-Tree:** Dinamik, departman bağımsız yetkinlik haritası.
+- **Academic DAO:** Üniversitenin merkezi olmayan otonom yönetim konseyi.
+
+---
+
+## 📉 Kurumsal Geçiş Rehberi (Adoption Guide)
+
+Geleneksel bir üniversite nasıl "Muassır" olur?
+1. **Phasing Out Exams:** Vize/Final ağırlığını azaltıp CPoW Analizörünü pilot bölümlerde devreye al.
+2. **AI-Mentor Deployment:** Her öğrenciye bir RAG tabanlı dijital asistan ata.
+3. **Financial Autonomy:** Patent ofisini "Venture Capital" birimine dönüştür.
+4. **DAO Governance:** Bölüm başkanlığı sisteminden liyakat bazlı dijital oylamaya geç.
 
 ---
 
@@ -116,4 +144,3 @@ Bu proje, statükoyu koruyan akademik kurumlara bir **meydan okumadır.** Siz de
 
 ---
 > **"Gelecek, onu inşa edenlerindir."**
-
