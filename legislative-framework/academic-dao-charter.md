@@ -1,39 +1,43 @@
-# 🏛️ Akademik DAO Tüzüğü: Otonom Üniversite Yönetişimi
+# 🏛️ Akademik DAO Yönetişim Tüzüğü: Otonom Kurumsal Yönetim Protokolleri
 
-## 1. Giriş: Hiyerarşiden İşbirliğine (From Hierarchy to Collaboration)
-Geleneksel üniversite yönetimi, "yukarıdan aşağıya" (top-down) işleyen, kararların dar bir bürokratik grup tarafından alındığı hantal bir yapıdır. Muassır-University, bu yapıyı **Akademik DAO (Decentralized Autonomous Organization)** ile değiştirir. Kararlar, sistem paydaşlarının (öğrenciler, hocalar, mezunlar ve endüstri partnerleri) dijital iş ispatı (CPoW) ağırlıklı oylarıyla alınır.
-
----
-
-## 2. Yönetişim Katmanları (Governance Layers)
-
-### A. Müfredat Oylaması (Curriculum Voting)
-Müfredat statik değildir. Eğer yeni bir teknoloji (Örn: *Quantum Machine Learning*) ana akıma girerse, ilgili "Skill-Tree"nin güncellenmesi için bir **Proposal (Öneri)** sunulur.
-*   **Oylama Gücü:** CPoW skoru yüksek olan öğrenciler ve o alanda patent sahibi hocalar daha yüksek oylama ağırlığına (Weighted Voting) sahiptir.
-*   **Execution:** Oylama geçtikten sonra AI-Mentor'lar tüm öğrencilerin müfredatını anında günceller.
-
-### B. Endowment Fonu Tahsisi (Fund Allocation)
-Üniversite fonlarının hangi Ar-Ge projelerine harcanacağı, DAO tarafından belirlenir.
-*   **Quadratic Funding:** Topluluğun en çok ilgi gösterdiği projelere, endowment fonundan çarpan etkisiyle daha fazla bütçe ayrılır.
-*   **Commercialization Tax:** Üniversite spinoff'larından gelen gelirlerin bir kısmı, DAO hazinesine (Treasury) aktarılır.
+## 1. Vizyoner Çerçeve: Liyakat Esaslı Merkeziyetsiz Yönetişim
+Project Muassir-University, geleneksel hiyerarşik yönetim modelleri yerine, kararların akademik üretim çıktısı ve liyakat verileriyle (CPoW) şekillendiği **Akademik DAO (Decentralized Autonomous Organization)** modelini benimser. Bu yapı, kurumsal kararların şeffaf, denetlenebilir ve liyakat odaklı alınmasını sağlayan otonom bir organizasyondur.
 
 ---
 
-## 3. Akıllı Kontrat Modelleri (Smart Contract Logic)
+## 2. Yönetişim Katmanları ve Karar Alma Süreçleri
+
+### A. Müfredat ve Araştırma Odaklı Yönetim
+Üniversite müfredatı ve Ar-Ge öncelikleri, paydaşlar tarafından sunulan **Akademik İyileştirme Önerileri (AIP - Academic Improvement Proposals)** ile güncellenir.
+- **Oylama Ağırlığı:** Karar alma süreçlerinde oylama gücü, bireyin veya departmanın kümülatif CPoW skoruna ve sahip olduğu patent portföyüne göre dinamik olarak hesaplanır.
+- **Otomasyon:** Oylaması kabul edilen akademik değişiklikler, yapay zeka rehberleri (AI-Mentor) aracılığıyla tüm eğitim süreçlerine ivedilikle entegre edilir.
+
+### B. Kaynak Tahsisi ve Finansal Yönetim
+Kurumsal fonların ve "Endowment" varlıklarının stratejik dağıtımı, merkeziyetsiz finansal (DeFi) protokoller üzerinden yönetilir.
+- **Karesel Finansman (Quadratic Funding):** Kamu yararı gözeten araştırmalara ayrılan fonlar, toplumsal etki ve paydaş desteğinin genişliğine göre çarpan etkisiyle dağıtılır.
+- **Uygulama Örneği:** **FHNW (İsviçre) 2024** "Teaching DAO" modeli referans alınarak, bölüm bazlı bütçe yönetimi tamamen otonomlaştırılmıştır.
+
+---
+
+## 3. Akıllı Kontrat Entegrasyonu ve Teknik Uygulama
+
+Yönetişim süreçleri, blockchain üzerinde çalışan akıllı kontratlar aracılığıyla icra edilir. Aşağıdaki kod özetle yönetim mantığını temsil eder:
 
 ```solidity
-// Akademik DAO - Basitleştirilmiş Oylama Mantığı
-contract AcademicDAO {
-    struct Proposal {
-        string description;
-        uint voteCount;
-        bool executed;
+// Akademik DAO - Kurumsal Yönetişim Kontratı (V2.0)
+contract AcademicDAOPro {
+    struct proposal {
+        string metadataURI;     // Öneri detayları (IPFS)
+        uint voleyCount;        // Toplam liyakat ağırlıklı oy
+        bool isApproved;        // Onay durumu
     }
 
-    mapping(address => uint) public cpowScore; // CPoW puanı = Oylama gücü
+    // CPoW Skoru = Stratejik Oylama Gücü
+    mapping(address => uint256) public meritIndex; 
     
-    function vote(uint proposalId) public {
-        uint weight = cpowScore[msg.sender];
+    function castVote(uint256 proposalId) public {
+        uint256 weight = meritIndex[msg.sender];
+        require(weight > 0, "Yetersiz liyakat skoru.");
         proposals[proposalId].voteCount += weight;
     }
 }
@@ -41,7 +45,7 @@ contract AcademicDAO {
 
 ---
 
-## 4. Şeffaflık ve Liyakat
-Tüm kararlar, bütçe harcamaları ve akademik atamalar **Blockchain** üzerinde şeffaf bir şekilde tutulur. Bu, politik müdahaleleri ve kayırmacılığı (nepotism) imkansız kılar. Üniversite, kendi kendini optimize eden otonom bir organizmaya dönüşür.
+## 4. Şeffaflık, Hesap Verebilirlik ve Liyakat
+Üniversite bünyesindeki tüm bütçe hareketleri, akademik atamalar ve stratejik kararlar blockchain üzerinde kamuya açık ve değiştirilemez şekilde kayıt altına alınır. Bu model, kurumsal nepotizmi (kayırmacılık) ve bürokratik darboğazları engelleyerek, kurumun sürekli olarak en yüksek performans düzeyinde çalışmasını garanti altına alır.
 
-> "A university should not be ruled by people, but by proven capabilities and collective vision."
+> "Bir yükseköğretim kurumu şahıslar tarafından değil, kanıtlanmış yetkinlikler ve kolektif akademik vizyon tarafından yönetilmelidir."
