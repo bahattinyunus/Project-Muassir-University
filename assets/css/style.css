@@ -67,6 +67,7 @@ header {
     font-size: clamp(3rem, 10vw, 6rem);
     background: var(--accent-gradient);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 1rem;
     letter-spacing: -2px;
@@ -174,6 +175,58 @@ section {
 .comment { color: #8b949e; }
 .keyword { color: #ff7b72; }
 .entity { color: #d2a8ff; }
+
+/* Dashboard & Stats */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.stat-card {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--accent-blue);
+}
+
+.progress-container {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--accent-gradient);
+    width: 0;
+    transition: width 1.5s ease-in-out;
+}
+
+.mentor-log {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-left: 3px solid var(--accent-blue);
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* Micro-animations */
 [data-reveal] {

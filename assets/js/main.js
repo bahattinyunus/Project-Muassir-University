@@ -12,7 +12,15 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('active');
-                observer.unobserve(entry.target); // Reveal only once
+                
+                // Animate progress bars if the entry contains them
+                const progressBars = entry.target.querySelectorAll('.progress-bar');
+                progressBars.forEach(bar => {
+                    const targetWidth = bar.getAttribute('data-progress');
+                    bar.style.width = targetWidth + '%';
+                });
+
+                observer.unobserve(entry.target); 
             }
         });
     };
