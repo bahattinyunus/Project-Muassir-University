@@ -121,7 +121,15 @@ Geleneksel bir üniversitenin "Muassır-ify" olması için 4 aşamalı strateji:
 Projenin vizyonunu somutlaştıran interaktif araçlar:
 - **[Etkileşimli Portal (index.html)](index.html):** Modern web teknolojileriyle (Glassmorphism) hazırlanmış projenin vitrini.
 - **[Öğrenci Dashboard Simülasyonu](index.html#dashboard):** CPoW skorları, Skill-Tree ilerlemesi ve **AI-Mentor Chat** arayüzü.
-- **[CPoW Analizör Scripti (Python)](scripts/cpow_analyzer.py):** Öğrenci verilerini simüle eden ve raporlayan teknik araç.
+- **[Teknik Prototip: CPoW Analizör Scripti (Python)](scripts/cpow_analyzer.py):** Öğrenci verilerini simüle eden ve raporlayan teknik araç.
+
+---
+
+## 📚 Bilimsel Arka Plan ve Kaynakça (Evidence Based)
+
+Muassır-University, sadece bir vizyon belgesi değildir; en güncel (2024-2025) akademik araştırmalar ve küresel pilot projeler üzerine kurgulanmıştır.
+
+➡️ **[Araştırma Kaynakçası ve Küresel Kanıt Temeli](proposals/research-bibliography.md)**
 
 ---
 

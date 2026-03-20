@@ -41,7 +41,7 @@ contract AcademicDAO {
 
 ---
 
-## 4. Şeffaflık ve Liyakat (Transparency & Meritocracy)
+## 4. Şeffaflık ve Liyakat
 Tüm kararlar, bütçe harcamaları ve akademik atamalar **Blockchain** üzerinde şeffaf bir şekilde tutulur. Bu, politik müdahaleleri ve kayırmacılığı (nepotism) imkansız kılar. Üniversite, kendi kendini optimize eden otonom bir organizmaya dönüşür.
 
 > "A university should not be ruled by people, but by proven capabilities and collective vision."
