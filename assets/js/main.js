@@ -58,5 +58,47 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // 4. Dashboard Interactive Chat
+    const chatContainer = document.getElementById('chat-container');
+    const chatInput = document.getElementById('chat-input');
+    const sendBtn = document.getElementById('send-btn');
+
+    const mentorResponses = [
+        "İlginç bir yaklaşım. Ancak CPoW metriklerine göre kodun daha fazla 'Maintainability' puanına ihtiyacı var.",
+        "Bunu yapabilirsin! Ancak önce 'Neural Kinematics' modülünü tamamlaman gerekiyor.",
+        "Harika! Bu değişikliği Akademik DAO'ya oylamaya sunuyorum.",
+        "Algoritman %98 verimlilikle çalışıyor. Nöral senkronizasyonu başlatıyorum...",
+        "Bellek yönetimi konusunda Rust dokümantasyonuna yönlendiriyorum seni. Akademik dürüstlük için dikkatli ol."
+    ];
+
+    function addMessage(text, isUser = false) {
+        const msg = document.createElement('div');
+        msg.className = 'mentor-log';
+        msg.style.background = isUser ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 150, 255, 0.1)';
+        msg.style.alignSelf = isUser ? 'flex-end' : 'flex-start';
+        msg.style.maxWidth = '85%';
+        msg.innerText = isUser ? `Siz: ${text}` : `Mentor: ${text}`;
+        chatContainer.appendChild(msg);
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+    }
+
+    if (sendBtn) {
+        sendBtn.addEventListener('click', () => {
+            const text = chatInput.value.trim();
+            if (text) {
+                addMessage(text, true);
+                chatInput.value = '';
+                setTimeout(() => {
+                    const randomResp = mentorResponses[Math.floor(Math.random() * mentorResponses.length)];
+                    addMessage(randomResp);
+                }, 800);
+            }
+        });
+
+        chatInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendBtn.click();
+        });
+    }
+
     console.log('Muassir OS: Neural Interface Initialized.');
 });
