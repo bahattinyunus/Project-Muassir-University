@@ -119,6 +119,7 @@ Geleneksel bir üniversite nasıl "Muassır" olur?
 Projenin vizyonunu somutlaştıran interaktif bileşenler:
 - **[Etkileşimli Portal (index.html)](index.html):** Projenin görsel ve fonksiyonel vitrini.
 - **[Öğrenci Dashboard Simülasyonu](index.html#dashboard):** CPoW ve AI-Mentor takibi arayüzü.
+- **[Teknik Prototip: CPoW Analizörü Scripti](scripts/cpow_analyzer.py):** Python tabanlı, veri analizi simülasyon aracı (Komut satırından çalıştırılabilir).
 
 ---
 
