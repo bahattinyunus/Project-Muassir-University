@@ -12,6 +12,7 @@ Eski eğitim modeli, hesap makinesi çıktığında logaritma cetvelini kullanma
 Öğrenci, üniversiteye adım attığı (veya sisteme login olduğu) ilk saniyeden itibaren, kendi düşünce yapısına, zayıf olduğu öğrenme biçimlerine ve kariyer genetiğine (career genome) entegre olmuş **özel bir Otonom Ajan (Autonomous Agent)** atanır.
 
 ### AI-Mentor'un Sorumlulukları:
+*   **KG-RAG (Knowledge Graph Enhanced RAG):** Mentor, sadece vektör tabanlı arama değil, **IEEE ISCT 2025** standartlarına uygun bilgi grafikleri kullanır. Bu sayede kavramlar arası (Örn: Fizik-Matematik) ontolojik bağlar hatasız kurulur ve halüsinasyon %0'a indirilir.
 *   **Bilişsel Darboğaz Tespiti:** Öğrenci bir "TensorFlow" optimizasyonunda takıldığında, AI-Mentor öğrencinin geçmiş loglarını tarayarak (örneğin "Lineer Cebir" eksiği) sorunun kök nedenine iner ve "Sokratik İrkilti (Socratic Prompting)" ile doğru soruyu sordurur.
 *   **Müfredat Dinamizmi (Dynamic Syllabus):** Statik bir "Ders İzlencesi (Syllabus)" yoktur. Öğrencinin o gün okuduğu güncel bir arXiv makalesi veya HackerNews trendi, ertesi günün ödevine AI tarafından anında entegre edilir. Eğitimin gecikmesi (latency of education) sıfırdır.
 
