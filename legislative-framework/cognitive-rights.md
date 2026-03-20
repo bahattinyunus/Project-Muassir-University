@@ -1,25 +1,29 @@
-# 🛡️ Bilişsel Haklar Sözleşmesi (Charter of Cognitive Rights)
+# 🛡️ Bilişsel Haklar ve Nöral Veri Güvenliği Beyannamesi
 
-## 1. Düşünce Mahremiyeti (Privacy of Thought)
-Muassır-University ekosisteminde, öğrencinin ham düşünceleri (raw neural data) kutsaldır.
-*   **Zero-Knowledge Proofs:** AI-Mentor, sadece "öğrenme hedefleriyle ilgili" veriyi işler; kişisel anılar ve düşünceler asla şifrelenmiş katmanın dışına çıkmaz.
-*   **Data Sovereignty:** Nöral veriler sadece yerel "Neural Mesh" üzerinde saklanır; merkezi bir sunucuya ham veri aktarımı yasaktır.
+## 1. Temel Prensipler
+Yapay Zeka ve Beyin-Bilgisayar Arayüzlerinin (BCI) yükseköğretime entegre edilmesi, bireyin zihinsel mahremiyetini ve bilişsel bütünlüğünü korumaya yönelik yeni bir hukukî çerçeveyi zorunlu kılmaktadır. Project Muassir, her araştırmacının "Bilişsel Egemenliğini" kurumsal bir anayasa olarak tanır.
 
 ---
 
-## 2. Kognitif Özgürlük ve Bağlantıyı Kesme Hakkı
-*   **The Right to Disconnect:** Her öğrenci, dilediği an nöral arayüzü kapatma ve "Sadece Biyolojik" moda geçme hakkına sahiptir. Hiçbir akademik değerlendirme (CPoW), bu tercih nedeniyle öğrenciyi cezalandıramaz.
-*   **Identity Integrity:** AI-human simbiyozu, öğrencinin öz-benliğini (ego) bozmayacak şekilde, AI-Mentor tarafından sürekli "Hizalama" (Alignment) kontrollerinden geçirilmelidir.
+## 2. Araştırmacı Hakları: Dört Temel Özgürlük
+
+### A. Düşünce Mahremiyeti (Privacy of Thought)
+Bireyin nöral verileri üzerinde tam mülkiyet hakkı vardır. AI-Mentor veya üniversite yönetimi, kullanıcının açık rızası olmadan ham nöral verilere (duygular, anılar, özel düşünceler) erişemez.
+
+### B. Bağlantıyı Kesme Hakkı (Right to Disconnect)
+Nöral etkileşim sistemi, isteğe bağlı bir seçimdir. Herhangi bir paydaş, akademik statüsü zarar görmeden sistemle olan senkronizasyonunu sonlandırma ve "Analog Eğitim" modeline dönme hakkına sahiptir.
+
+### C. Bilişsel Eşitlik (Neural Equity)
+Nöral güçlendirme teknolojileri (BCI), üniversite içindeki tüm araştırmacılara adil bir şekilde sunulur. Fırsat eşitliği, nöral kapasite farklarına bakılmaksızın teknolojik erişim üzerinden garanti altına alınır.
 
 ---
 
-## 3. Nöral Eşitlik (Neural Equity)
-*   **Access for All:** BCI donanımları, üniversite endowment fonu tarafından tüm öğrencilere eşit olarak sağlanır. "Zengin daha akıllı" (Neural Divide) ayrımcılığına izin verilmez.
-*   **Anti-Neural-Lockout:** Belirli bir yazılıma veya AI modeline nöral bağımlılık geliştirilmesi, AI-Mentor'un "Bağımlılık Karşıtı" algoritmalarıyla engellenir.
+## 3. Kurumsal Sorumluk ve Etik Denetim
+Üniversite, yapay zeka algoritmalarının bireysel karar alma mekanizmaları üzerinde haksız bir manipülasyon (Cognitive Manipulation) oluşturmasını engellemekle yükümlüdür. **Bilişsel Etik Komisyonu**, tüm nöral veri akışlarını etik standartlar açısından periyodik olarak denetler.
 
 ---
 
-## 4. Etik Kurul Denetimi
-Akademik DAO bünyesinde kurulan "Nöral Etik Komisyonu", tüm BCI güncellemelerini ve AI-Mentor algoritmalarını bu sözleşmeye göre denetler.
+## 4. Gelecek Perspektifi: Bilişsel Egemenlik Zamanı
+Bu beyanname, insan ve yapay zekanın iç içe geçtiği gelecekte, "insan" tanımını ve bireysel özgürlükleri korumanın yegâne yoludur. Muassır-University, sadece teknolojik bir sıçrama değil, aynı zamanda etik bir referans noktasıdır.
 
-> "Aklın son kalesi mahremiyeti, teknolojinin en büyük vaadi ise özgürlüğüdür."
+> "Teknoloji, insanın özgürlüğünü artırdığı ölçüde değerlidir."
