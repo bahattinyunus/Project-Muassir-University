@@ -97,8 +97,8 @@ Projenin vizyonunu somutlaştıran interaktif bileşenler:
 
 - [x] **V1.0 (The Manifesto):** Temel kuramsal çerçeve.
 - [x] **V2.0 (The Prototype):** Teknik mimari ve görsel portal.
-- [/] **V3.0 (The Implementation):** Akademik DAO yönetişimi ve Yetenek Ağaçlarının detaylandırılması.
-- [ ] **V4.0 (Cognitive Leap):** BCI (Beyin-Bilgisayar Arayüzü) entegreli eğitim protokolleri.
+- [x] **V3.0 (The Implementation):** Akademik DAO yönetişimi ve Yetenek Ağaçlarının detaylandırılması.
+- [/] **V4.0 (Cognitive Leap):** BCI (Beyin-Bilgisayar Arayüzü) entegreli eğitim protokolleri.
 
 ---
 

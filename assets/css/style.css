@@ -240,6 +240,12 @@ section {
     transform: translateY(0);
 }
 
+@keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; text-shadow: 0 0 10px #ff00ff; }
+    100% { opacity: 0.6; }
+}
+
 /* Footer */
 footer {
     padding: 50px 0;
