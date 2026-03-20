@@ -1,0 +1,28 @@
+name: "🚀 Stratejik Öneri"
+about: "Mevzuat, müfredat veya kurumsal yapıya yönelik yeni bir öneride bulunun."
+title: "[STRATEGY]: "
+labels: strategy, enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Muassır modeline sağlayacağınız stratejik katkı için teşekkürler!
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Mevcut Sorun"
+      description: "Geleneksel sistemdeki hangi darboğazı hedefliyorsunuz?"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Öneri Detayları"
+      description: "Yapay zeka veya otonom yönetim bu sorunu nasıl çözer?"
+    validations:
+      required: true
+  - type: textarea
+    id: academic-reference
+    attributes:
+      label: "Akademik Referans (Opsiyonel)"
+      description: "Önerinizi destekleyen akademik çalışmalar var mı?"

@@ -1,0 +1,17 @@
+name: "🛠️ Teknik Geliştirme"
+about: "CPoW analizörü, dashboard veya AI-Mentor protokollerine yönelik teknik iyileştirme."
+title: "[TECH]: "
+labels: technical, bug
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: "Geliştirme Detayı"
+      description: "Hangi teknik bileşeni geliştiriyorsunuz?"
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: "Uygulama Notları"
+      description: "Hangi diller veya protokoller (RAG, BCI vb.) kullanılacak?"
