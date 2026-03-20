@@ -5,6 +5,23 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     
+    const skillTrees = {
+        'AI Engineering': ['Neural Networks', 'RAG Systems', 'LLM Fine-tuning'],
+        'Quantum Systems': ['Qubit Stability', 'Quantum ML', 'Error Correction'],
+        'Siber-Biology': ['DNA Synthesis', 'Protein Folding', 'Bio-Logic Gates']
+    };
+
+    function renderSkillTrees() {
+        const container = document.getElementById('skill-tree-container');
+        if (!container) return;
+        container.innerHTML = '';
+        Object.entries(skillTrees).forEach(([category, skills]) => {
+            const div = document.createElement('div');
+            div.className = 'skill-tree-category';
+            div.innerHTML = `<h4>${category}</h4>` + skills.map(s => `<span class="badge">${s}</span>`).join('');
+            container.appendChild(div);
+        });
+    }
     // 1. Intersection Observer for Scroll Reveal
     const revealElements = document.querySelectorAll('[data-reveal]');
     
